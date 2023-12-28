@@ -27,7 +27,7 @@ jobs:
       - name: Hello world action step
         run: echo "Hello 🌏!"
   build:
-    name: Task2
+    name: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
